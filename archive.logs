@@ -1,0 +1,102 @@
++ for folder in ./folder/*
++ for folder in ./folder/*
++ for folder in ./folder/*
++ for folder in ./folder/*
+++ basename ./folder/1
++ for folder in ./folder/*
++ for folder in ./folder/*
+++ basename ./folder/1.tar.gz
++ for folder in ./folder/*
+++ basename ./folder/2
+++ basename ./folder/10
++ for folder in ./folder/*
+++ basename ./folder/3
++ for folder in ./folder/*
++ for folder in ./folder/*
++ for folder in ./folder/*
+++ basename ./folder/6
++ sleep 5
+++ basename ./folder/4
+++ find ./folder/1.tar.gz -type f -daystart -mtime 1
+++ find ./folder/2 -type f -daystart -mtime 1
+++ basename ./folder/5
+++ find ./folder/1 -type f -daystart -mtime 1
+++ basename ./folder/8
+++ find ./folder/3 -type f -daystart -mtime 1
+++ basename ./folder/7
+++ find ./folder/5 -type f -daystart -mtime 1
+++ find ./folder/4 -type f -daystart -mtime 1
+++ find ./folder/6 -type f -daystart -mtime 1
+++ find ./folder/8 -type f -daystart -mtime 1
+++ find ./folder/10 -type f -daystart -mtime 1
++ tar cvzf ./folder/1.tar.gz ./folder/1/notold
++ tar cvzf ./folder/1.tar.gz.tar.gz
+++ basename ./folder/9
++ tar cvzf ./folder/6.tar.gz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
++ tar cvzf ./folder/10.tar.gz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
++ tar cvzf ./folder/2.tar.gz
++ tar cvzf ./folder/3.tar.gz
++ tar cvzf ./folder/8.tar.gz
+tar: tar: Cowardly refusing to create an empty archiveCowardly refusing to create an empty archive
+
+Try 'tar --help' or 'tar --usage' for more information.
+Try 'tar --help' or 'tar --usage' for more information.
++ tar cvzf ./folder/4.tar.gz
+++ find ./folder/7 -type f -daystart -mtime 1
++ tar cvzf ./folder/5.tar.gz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+tar: + tar cvzf ./folder/7.tar.gz
+Cowardly refusing to create an empty archive
+++ find ./folder/9 -type f -daystart -mtime 1
+Try 'tar --help' or 'tar --usage' for more information.
+./folder/1/notold
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
++ tar cvzf ./folder/9.tar.gz
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:46
++ '[' 03:46. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:47
++ '[' 03:47. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:48
++ '[' 03:48. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:49
++ '[' 03:49. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:50
++ '[' 03:50. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:51
++ '[' 03:51. = 03:45. ']'
++ sleep 60
++ '[' 1 ']'
+++ /bin/date +%H:%M
++ DATE=03:52
++ '[' 03:52. = 03:45. ']'
++ sleep 60
